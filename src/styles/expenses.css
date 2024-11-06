@@ -1,0 +1,43 @@
+.expenses-list{
+  display: flex;
+flex-direction: column;
+  list-style: none;
+  max-width: 250px;
+  li{
+    background: slategray;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+}
+
+.category{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  :hover{
+    color: red;
+  }
+}
+
+.input-fields{
+  display: flex;
+  gap: 20px;
+  input,select{
+    padding: 10px 20px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid gray;
+  }
+  button{
+    cursor: pointer;
+  }
+}
+.filter-selected{
+  color: red;
+}

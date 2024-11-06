@@ -1,0 +1,16 @@
+.receipe-item{
+  strong{
+    display: block;
+  }
+}
+.input-field{
+  max-width: 250px;
+  
+  input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+}

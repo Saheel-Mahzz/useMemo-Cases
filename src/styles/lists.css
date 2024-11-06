@@ -1,0 +1,39 @@
+.filters{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  cursor: pointer;
+  transition: color .6s ease-in-out;
+  :hover{
+    color: red;
+  }
+}
+
+.task-box{
+  background: seashell;
+  padding: 10px 20px;
+  li{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 20px;
+border-bottom:1px solid gray;
+padding: 10px 0;
+  }
+}
+
+.input-field{
+  max-width: 250px;
+  
+  input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+}
+
+.list-selected{
+  color: red;
+}
